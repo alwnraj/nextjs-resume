@@ -20,31 +20,25 @@ export const contentData = [
     title: "Education",
     items: [
       {
-        title: "Master's Degree in Computer Science",
-        subTitle: "University of Paris",
-        date: "2015 - 2016",
-        description: "Specialized in web development.",
-      },
-      {
         title: "Bachelor's Degree in Computer Science",
-        subTitle: "University of Paris",
-        date: "2012 - 2015",
-        description: "Specialized in web development.",
+        subTitle: "University of Louisville",
+        date: "2022 - 2026",
+        description: "Studying Computer Science & Engineering.",
       },
     ],
   },
   //   @NOTE: You can add more sections here
-  //   {
-  //     title: "Projects",
-  //     items: [
-  //       {
-  //         title: "Project 1",
-  //         subTitle: "Sub Title",
-  //         date: "2015 - 2016",
-  //         description: "Lorem ipsum dolor sit amet, consectetur adipiscing eli",
-  //       },
-  //     ],
-  //   },
+     {
+       title: "Projects",
+       items: [
+         {
+           title: "Project 1",
+           subTitle: "Sub Title",
+           date: "2015 - 2016",
+           description: "Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+         },
+       ],
+     },
 ];
 
 export type Content = {
