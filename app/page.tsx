@@ -55,7 +55,7 @@ export default function Home() {
             <p className="text-slate-600 dark:text-slate-300 text-sm">
               {generalData.jobTitle}
             </p>
-            {generalData.website ? (
+            {/*{generalData.website ? (
               <span className="text-sm text-slate-400 dark:text-slate-400">
                 <a
                   href={generalData.website}
@@ -68,7 +68,7 @@ export default function Home() {
                     .replace("www.", "")}
                 </a>
               </span>
-            ) : null}
+            ) : null} */}
           </div>
         </section>
         <section className="my-9 text-sm">
